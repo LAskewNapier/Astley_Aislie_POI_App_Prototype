@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImageZoomApp.MapPage"
+             Title="Our Grounds">
+    <Grid RowDefinitions="*, Auto">
+        <!-- Image inside a Border -->
+        <Border Grid.Row="0" BackgroundColor="DarkGray" Stroke="Black" HeightRequest="590" VerticalOptions="Start" WidthRequest="380">
+            <ScrollView x:Name="ImageScrollView" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never">
+                <AbsoluteLayout>
+                    <Image x:Name="ZoomableImage" Source="map_image.jpg" Rotation="-90" Aspect="AspectFit" />
+                    <Ellipse WidthRequest="20" HeightRequest="20" Fill="Red"
+             AbsoluteLayout.LayoutBounds="0.5, 0.5, 20, 20"
+             AbsoluteLayout.LayoutFlags="None" VerticalOptions="Center" />
+                </AbsoluteLayout>
+            </ScrollView>
+        </Border>
+        <!-- Buttons for Zoom and Move -->
+        <StackLayout Grid.Row="1" HorizontalOptions="Start" Padding="50" Spacing="5">
+            <Button Text="Zoom In" Clicked="OnZoomInClicked" />
+            <Button Text="Zoom Out" Clicked="OnZoomOutClicked" />
+        </StackLayout>
+        <StackLayout Grid.Row="2" HorizontalOptions="Center" Padding="50" Spacing="5" >
+            <Button Text="Move Left" Clicked="OnMoveLeftClicked" />
+            <Button Text="Move Right" Clicked="OnMoveRightClicked" />
+        </StackLayout>
+        <StackLayout Grid.Row="3" HorizontalOptions="End" Padding="50" Spacing="5" >
+            <Button Text="Move Up" Clicked="OnMoveUpClicked" />
+            <Button Text="Move Down" Clicked="OnMoveDownClicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

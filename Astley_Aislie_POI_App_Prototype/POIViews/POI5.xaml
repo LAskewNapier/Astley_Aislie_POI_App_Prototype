@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI5">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="Scientific Block or Physiotherapy Department 1930"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi5.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="The building housed the Electrical Department, the Massage Department (now Physiotherapy), the Artificial Sunlight Lamp and the X Ray Department. The Hydrotherapy Pool was added in 1967."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

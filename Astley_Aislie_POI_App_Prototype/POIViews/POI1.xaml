@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI1">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="The Lodges and Gates built in 1030"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi1.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Only the gates in Grange Loan are in situ today. These lodges were built in the style of those at Floors Castle in Kelso."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Why would they build lodges or gatehouses at the entrance to a hospital?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

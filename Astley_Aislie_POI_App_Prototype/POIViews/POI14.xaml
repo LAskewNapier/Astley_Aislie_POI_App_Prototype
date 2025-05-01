@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI14">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="School"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi14.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="The first school was built in 1931, but this was replaced by the one standing today in 1957. Prior to the Children’s Unit, children were initially placed in the adults’ wards and if able to, attended school here."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="An orchard still remains behind this building. What fruit trees (in season) can you identify?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Bird Bath"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi14a.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="By Maxwell Allan (1931), carved with animals and words from Alice Through the Looking Glass."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Alphabet Stone Sculpture"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi14b.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Also, by Maxwell Allan (1931)"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Can you find the letters of the alphabet?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

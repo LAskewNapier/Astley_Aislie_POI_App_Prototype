@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI20">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="The Wall"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi20.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Built in the grounds of what was the new Southhouse residence (now demolished and new flats have been built in its place)."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="The wall was erected using some old ecclesiastical stones by Colonel Fraser the Medical Superintendent after Lt Colonel Cunningham."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Can you find the date on the wall?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Another well"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi20a.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Can you find this well?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Tennis court"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi20b.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Can you see where the old tennis courts used to be?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

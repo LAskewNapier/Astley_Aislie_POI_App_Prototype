@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI12">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="Well"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi12.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Possibly a relic from St Roque’s Chapel and may have been used by plague victims."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Why did they have wells? How did people get water from the well?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

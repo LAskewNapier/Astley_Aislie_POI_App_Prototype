@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI16">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="Canaan Park"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi16.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Originally called Ellengowan and built in 1845, it was at one time the home of a relative of Forbes of Pitsligo who was killed in the Battle of Little Bighorn in 1876. Another inhabitant was James Evans who was instrumental in establishing Morningside Village School. In around 1909 it became Canaaan Park College for girls, but this was bought over in 1923 by the Astley Ainslie Institution as the first experimental convalescent unit for 14 females. Verandas were added facing south (the pillars remain) to accommodate beds, and some patients slept outside at night being offered tarpaulins if it was extremely cold. It was opened by Lady Susan Gilmour. Such was its success that in two weeks the numbers had risen to 34. The treatment included massage and exercise, electrical treatment, heliotherapy, and gardening."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Pillars"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi16a.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Can you find the bases of the old pillars that held up the verandas?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

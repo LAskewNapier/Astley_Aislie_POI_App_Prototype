@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI8">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="Wooden army huts"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi8.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Built in 1939, these huts were opened by the Queen Mother to accommodate war casualties. However, they were not used for such, but they did get used as wards, a chapel, canteen and nurses training unit. In 1948 with the introduction of the NHS, the units were taken over by the OT Training College (with Miss Bramwell as its head) until 1978 when it amalgamated with Queen Margaret University."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="The ground in front of the school and OT dept were utilised in the Dig for Victory Campaign and produced a good supply of vegetables."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="What kind of wounds would the war casualties have suffered, had they come her for treatment?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

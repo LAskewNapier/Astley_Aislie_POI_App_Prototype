@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI17">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="Canaan House"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi17.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Built in 1805 this is one of the oldest dwellings in the Grange and was an earlier residence of Alexander J Adie an inventor and scientist. Originally called Canaan Cottage it was extended in 1877 to twice its original size. It was the first Medical Officers’ Residence but is now the Administrative Centre for the hospital."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Old Stone"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi17a.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Stone boss, carved with the symbols of the Passion – Christ’s crucifixion. Originally there were more than eight passion stones but now only three remain. They are thought to have come from St Roque’s Chapel or from Trinity Church which was demolished in 1848 having been removed to make was for Waverley Station before being reconstructed on Jeffrey Street. Some of the stones in the yard of Bloomfield Laundry (now Blomfield House, 64 Canaan Lane which was part of the hospital’s property)."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Can you find the old stones with hands engraved on it?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

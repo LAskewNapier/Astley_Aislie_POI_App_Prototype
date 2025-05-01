@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.Page1">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label 
+                Text="Welcome to The field Guide!"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+            />
+            <Button
+              x:Name="ToHomePage"
+              Text="Go to Home Page" 
+              Clicked="OnToHomePageClicked"
+              HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

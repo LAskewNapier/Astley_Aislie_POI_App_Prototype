@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.HomePage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="50,0"
+            Spacing="25">
+            <Label 
+                Text="Welcome to the GreenSpace!" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+            />
+            <Button
+              x:Name="ToMainPage"
+              Text="Go to Main Page" 
+              Clicked="OnStartClickedMain"
+              HorizontalOptions="Fill" />
+            <Button
+              x:Name="ToPage1"
+              Text="Field Guide" 
+              Clicked="OnToPage1Clicked"
+              HorizontalOptions="Fill" />
+            <Button
+              x:Name="ToPage2"
+              Text="Donate" 
+              Clicked="OnToPage2Clicked"
+              HorizontalOptions="Fill" />
+            <Button
+              x:Name="ToPage3"
+              Text="Map" 
+              Clicked="OnToPage3Clicked"
+              HorizontalOptions="Fill" />
+            <Button
+              x:Name="ToPage4"
+              Text="About Us" 
+              Clicked="OnToPage4Clicked"
+              HorizontalOptions="Fill" />
+            <Button
+              x:Name="ToPage5"
+              Text="Points of Interest" 
+              Clicked="OnToPage5Clicked"
+              HorizontalOptions="Fill" />
+            <Button
+              x:Name="NotificationPage"
+              Text="Notifications" 
+              Clicked="NotificationPageClicked"
+              HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

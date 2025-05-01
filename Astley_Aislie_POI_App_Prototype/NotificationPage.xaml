@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.NotificationPage"
+             Title="NotificationPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label 
+                Text="Points of Interest Notification"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+            />
+
+            <Button
+              x:Name="T0POI1"
+              Text="The Lodges and Gates" 
+              Clicked="Notification1Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI2"
+              Text="Woodlands" 
+              Clicked="Notification2Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI3"
+              Text="Blackford" 
+              Clicked="Notification3Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI4"
+              Text="East and West Wings" 
+              Clicked="Notification4Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI5"
+              Text="Scientific Block" 
+              Clicked="Notification5Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI6"
+              Text="SMART* centre" 
+              Clicked="Notification6Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI7"
+              Text="Occupational Therapy (OT) Department" 
+              Clicked="Notification7Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI8"
+              Text="Wooden army huts" 
+              Clicked="Notification8Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI9"
+              Text="The Cunningham Day Centre" 
+              Clicked="Notification9Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI10"
+              Text="Pet Cemetery" 
+              Clicked="Notification10Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI11"
+              Text="St Roque" 
+              Clicked="Notification11Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI12"
+              Text="Well" 
+              Clicked="Notification12Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI13"
+              Text="Morelands" 
+              Clicked="Notification13Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI14"
+              Text="School" 
+              Clicked="Notification14Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI15"
+              Text="Charles Bell Pavillion" 
+              Clicked="Notification15Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI16"
+              Text="Canaan Park" 
+              Clicked="Notification16Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI17"
+              Text="Canaan House" 
+              Clicked="Notification17Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI18"
+              Text="Doctors Residence" 
+              Clicked="Notification18Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI19"
+              Text="Gates and Sentry Pavilions" 
+              Clicked="Notification19Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI20"
+              Text="The Wall" 
+              Clicked="Notification20Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI21"
+              Text="Millbank" 
+              Clicked="Notification21Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="T0POI22"
+              Text="Balfour Pavilion" 
+              Clicked="Notification22Clicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              x:Name="ToHomePage"
+              Text="Go to Home Page" 
+              Clicked="OnToHomePageClicked"
+              HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

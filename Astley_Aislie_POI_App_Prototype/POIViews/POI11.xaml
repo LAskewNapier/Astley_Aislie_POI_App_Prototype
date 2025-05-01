@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI11">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="St Roque"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image 
+                Source="poi11.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label 
+                Text="Built in 1845 in Italiante style by Brown and Wardrop, one of the foremost architects of the time in Edinburgh. One of the last residents was a Miss Mary Euphemia Cowan (1846-1945) who inherited it from her father Lord John Cowan, a Scottish Judge and Senator of the College of Justice. Some of her dogs were buried in the pet cemetery - Dum Dum, Smuttie and Sambo."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="It was acquired in 1946 for the use of ambulant patients."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="Lantern detail"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <Image 
+                Source="poi11a.jpg"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+            <Label 
+                Text="What creatures can you see in this lantern?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

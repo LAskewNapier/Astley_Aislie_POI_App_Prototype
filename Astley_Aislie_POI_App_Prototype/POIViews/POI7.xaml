@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.POIViews.POI7">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+                Text="Occupational Therapy (OT) Department"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="Built in 1936, this was the first department of its kind in Scotland. Lt Colonel Cunningham was so convinced with the concept of OT and the role that it played in rehabilitation that he had engaged a Canadian OT to come over and work in Edinburgh in 1932. A Miss Amy de Brisey arrived and stayed for 6 months followed by many more Canadian trained OTs. The therapy was such a success that the decision was made to train OTs in Scotland and finally in 1937 the first OT training college opened to nine students. The training was put on hold in 1939 and resumed in 1941. Until 1962 it was the only training college for OTs in Scotland and demand for the 30 places a year was high."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

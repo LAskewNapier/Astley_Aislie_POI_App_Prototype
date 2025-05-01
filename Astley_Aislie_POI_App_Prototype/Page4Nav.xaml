@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astley_Aislie_POI_App_Prototype.Page3">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label 
+                Text="About Us"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+            />
+            <Label 
+                Text="We are campaigning for community ownership of the Astley Ainslie site. We are providing a forum for all those who wish to engage, and we are actively encouraging local community involvement. We are building an inclusive and sustainable model of community ownership for the benefit of the people of Edinburgh."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+            />
+            <Label 
+                Text="AACT aims to build on the intention of David Ainslie’s original bequest, which recognised that healthy communities need intimate connections with land and nature. Whilst the hospital services will move, health and wellbeing will be central to the uses we propose, which include the following: greenspace for productive and therapeutic uses, education, recreation, and access; an active and open community hub; and affordable housing."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+            />
+            <Label
+                Text="We envision a site whose landscape and uses interconnect to form a complementary, dynamic whole. Any particular use of the site will not stand alone; each will support the others, compounding benefits for the community and the city. We will briefly address the various community needs/benefits as they relate to particular uses before stepping back to look at the site and uses all together."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+            />
+            <Button
+              x:Name="ToHomePage"
+              Text="Go to Home Page" 
+              Clicked="OnToHomePageClicked"
+              HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
